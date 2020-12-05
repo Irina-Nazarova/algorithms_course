@@ -1,18 +1,19 @@
-def polindrome(word: str):
+def polindrome(words: str):
     """
     :param data: "A man, a plan, a canal: Panama" -str
     :return: True
     """
-    word1 = (
-        word.replace(":", "")
+    word_reverse = (
+        words.replace(":", "")
         .replace(",", "")
         .replace(" ", "")
         .replace(".", "")
         .lower()
     )
-    word2 = word1[::-1]
 
-    if word1 == word2:
+    slice_words = word_reverse[::-1]
+
+    if word_reverse == slice_words:
         return True
     else:
         return False
