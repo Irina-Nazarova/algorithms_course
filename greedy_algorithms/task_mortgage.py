@@ -2,7 +2,7 @@ def mortgage(budget_limit: int, cost_houses: list) -> int:
     """
     :param budget_limit: 1000
     :param cost_houses: [320, 900, 200]
-    :return: 2 - число, равное максимально возможному числу домов, которое можно купить
+    :return: 2 - displays as many houses as possible
     """
     cost_houses.sort()
     count = 0

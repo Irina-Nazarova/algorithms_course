@@ -2,7 +2,7 @@ def cockroach_racing(team_first, team_second):
     """
     :param team_first: 4 9 5
     :param team_second: 9 4 9 8 4
-    :return: 4 9 - проверяет наличие участника команды team_first в team_second
+    :return: 4 9 - checks the presence of a participant team_first в team_second
     """
 
     arr = [1002]*1002

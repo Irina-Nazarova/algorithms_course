@@ -7,12 +7,10 @@ class Node:
         return self.value
 
 
-# —оздаем объекты
 n3 = Node("third")
 n2 = Node("second")
 n1 = Node("first")
 
-# —оздаем св€занный список из созданных ранее объектов
 # n1.next = n2
 # n2.next = n3
 # n3.next = None
@@ -26,7 +24,6 @@ def hasCycle(node):
     if node == None:
         return False
 
-    # ќбъ€вл€ем две переменные, которые будут соревноватьс€ в скорости прохождени€ цикла
     fast = node
     slow = node
 
