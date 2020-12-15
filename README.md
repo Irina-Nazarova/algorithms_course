@@ -1,3 +1,3 @@
-# Grokking Algorithms
+# algorithms
 
 [Algorithms that I solve]
