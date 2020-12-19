@@ -6,6 +6,7 @@ def stock_profit(stock_prices):
         Если акция есть на руках: Продаю если цена завтра меньше чем сегодня. continue
         В остальных случаях ничего не предпринимаю.
     """
+
     stock = "empty"
     stock_salary = 0
     for i in range(len(stock_prices) - 1):
@@ -32,4 +33,3 @@ if __name__ == "__main__":
         stock_prices.append(0)
         stock_salary = stock_profit(stock_prices)
         print(stock_salary)
-
