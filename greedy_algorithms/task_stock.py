@@ -15,6 +15,7 @@ def stock_profit(stock_prices):
             if stock_prices[i] < stock_prices[i + 1]:
                 # Если цена сегодня меньше чем завтра - покупаем
                 stock = stock_prices[i]
+
         # Купленные акции есть
         else:
             # Решаем, что сегодня делать с акцией
