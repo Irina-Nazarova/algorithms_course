@@ -10,6 +10,6 @@ https://dou.ua/lenta/articles/what-you-should-know-about-algorithms/
 
 https://habr.com/ru/company/mailru/blog/266811/
 
-### соритировка пузырьком
+### сортировка пузырьком
 
 https://younglinux.info/algorithm/bubble
